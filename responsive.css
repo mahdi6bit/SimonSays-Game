@@ -1,0 +1,93 @@
+/* TABLET */
+@media (max-width: 1024px) {
+  .container {
+    display: inline;
+    width: 50%;
+    margin: auto;
+  }
+
+  #level-title {
+    margin: 4rem 0rem;
+    font-size: 1.2rem;
+  }
+
+  #logo {
+    width: 300px;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 767px) {
+  .container {
+    display: inline;
+    width: 50%;
+    margin: auto;
+  }
+
+  #logo {
+    width: 200px;
+  }
+
+  #level-title {
+    margin: 4rem 0rem;
+    font-size: 1rem;
+  }
+
+  .btn {
+    margin: 10px;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border: 10px solid black;
+    border-radius: 20%;
+  }
+
+  .start-game-btn {
+    padding: 14px 30px;
+    font-size: 1rem;
+    border: 5px solid #10112d;
+    border-radius: 80px;
+    background-color: #7700ff;
+    color: white;
+    font-family: "Press Start 2P", cursive;
+    margin: 30px;
+  }
+}
+
+/* SMALL MOBILE */
+@media (max-width: 480px) {
+  .container {
+    display: inline;
+    width: 50%;
+    margin: auto;
+  }
+
+  #logo {
+    width: 200px;
+  }
+
+  #level-title {
+    margin: 4rem 0rem;
+    font-size: 1rem;
+  }
+
+  .btn {
+    margin: 10px;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border: 10px solid black;
+    border-radius: 20%;
+  }
+
+  .start-game-btn {
+    padding: 14px 30px;
+    font-size: 1rem;
+    border: 5px solid #10112d;
+    border-radius: 80px;
+    background-color: #7700ff;
+    color: white;
+    font-family: "Press Start 2P", cursive;
+    margin: 30px;
+  }
+}
